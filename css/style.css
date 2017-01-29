@@ -1,0 +1,202 @@
+body{
+	margin:0;
+	padding: 0;
+	font-size: 18px;
+	font-family: 'Lora', serif;
+	color: #333;
+}
+img{
+	display: block;
+	max-width: 100%;
+}
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.container{
+	margin: 0 auto;
+    overflow: hidden;
+    width: 1150px;
+}
+/*****header section*****/
+#header {
+    background: #fefefe none repeat scroll 0 0;
+    padding-top: 20px;
+   
+}
+#header .container{
+	
+    border-bottom: 1px solid #dedede;
+	padding-bottom: 20px;
+}  
+.logo {
+    float: left;
+    width: 15%;
+} 
+.social-icons {
+    float: right;
+    
+}
+.logo-img {
+    float: left;
+    width: 37%;
+}
+.logo-text {
+    line-height: 2.6;
+}
+.logo-text span {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.social-icons ul{
+	 margin: 0;
+    padding: 0;
+}
+.social-icons ul li{
+	display: inline-block;
+    list-style: outside none none;
+}
+.social-icons ul li a{
+    border: 2px solid #737373;
+    border-radius: 18px;
+    color: #737373;
+    display: block;
+    font-size: 14px;
+    margin: 5px;
+    padding: 3px 7px;
+    text-decoration: none;
+}
+.social-icons ul li a:hover{
+	    color: #5fa23e;
+    border: 2px solid #5fa23e;
+}
+/****-menu area****/
+
+#menu{
+	padding: 25px 0;
+	background-color: #FEFEFE;
+}
+#menu ul{
+	margin: 0;
+    padding: 0;
+}
+#menu ul li{
+	display: inline-block;
+    list-style: outside none none;
+}
+#menu ul li a{
+	text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #333;
+   
+    margin-right: 25px;
+}
+/***middle image area******/
+#middle-area{
+	background: url(../images/s.png);
+    height: 100vh;
+    position: relative;
+    margin-bottom: 37px;
+}
+#middle-area img{
+	    position: absolute;
+    bottom: -37px;
+}
+/*******portfolio area********/
+#portfolio{
+	    padding: 40px 0;
+}
+#portfolio h1{
+	    margin: 0;
+    font-size: 20px;
+    text-align: center;
+    color: #636363;
+    margin-bottom: 20px;
+}
+#portfolio a{
+	    text-decoration: none;
+    display: block;
+    text-align: center;
+   
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #2ECC71;
+    color: #fff;
+    width: 18%;
+    margin: 0 auto;
+}
+#portfolio a:hover{
+	color: #FFF;
+	background-color:#51c583;
+}
+/********find out area******/
+#find-out{
+	background: #332F30;
+	    padding: 65px 0;
+}
+.find-out-text{
+	    width: 50%;
+    float: left;
+}
+.find-out-text h1{
+	    margin: 0;
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.find-out-button{
+	float: right;
+}
+.find-out-button a{
+	text-decoration: none;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 10px 20px;
+    background-color: #2ECC71;
+    color: #fff;
+    width: 100%;
+}
+/******footer area******/
+#footer-area{
+	padding: 20px 0;
+}
+.copy-right-text{
+	   width: 50%;
+	       float: left
+}
+.copy-right-text p{
+
+    color: #828282;
+    font-size: 15px;
+        margin: 0;
+}
+.footer-menu{
+	float: right;
+}
+.footer-menu ul{
+	 margin: 0;
+    padding: 0;
+}
+.footer-menu ul li{
+	display: inline-block;
+    list-style: outside none none;
+}
+.footer-menu ul li a{
+	text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #333;
+    margin-left: 18px;
+    position: relative;
+}
+.footer-menu ul li a:after{
+	position: absolute;
+    content: "/";
+    right: -16px;
+}
